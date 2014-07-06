@@ -13,12 +13,12 @@
         <link rel="apple-touch-startup-image" href="lib/durandal/img/ios-startup-image-landscape.png" media="(orientation:landscape)" />
         <link rel="apple-touch-startup-image" href="lib/durandal/img/ios-startup-image-portrait.png" media="(orientation:portrait)" />
         <link rel="apple-touch-icon" href="lib/durandal/img/icon.png"/>
-
+        
         <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
         <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css" />
         <link rel="stylesheet" href="css/ie10mobile.css" />
         <link rel="stylesheet" href="lib/durandal/css/durandal.css" />
-        <link rel="stylesheet" href="css/samples.css" />
+        <link rel="stylesheet" href="css/starterkit.css" />
         
         <script type="text/javascript">
             if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
@@ -30,7 +30,15 @@
         </script>
     </head>
     <body>
-        <div id="applicationHost"></div>
+        <div id="applicationHost">
+            <div class="splash">
+                <div class="message">
+                    Durandal Starter Kit
+                </div>
+                <i class="fa fa-spinner fa-spin"></i>
+            </div>
+        </div>
+
         <script src="lib/require/require.js" data-main="app/main"></script>
     </body>
 </html>
